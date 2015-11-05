@@ -1,0 +1,18 @@
+body{
+	background-image: url("http://7-themes.com/data_images/out/34/6886489-green-background.jpg");
+}
+h1{
+	color: #66FF99;
+	font:serif;
+}
+
+.menu{
+	display:inline-block;
+	padding-top:50px;
+	border:solid 2px red;
+	
+}
+ul{
+	
+	list-style-type: none;
+}

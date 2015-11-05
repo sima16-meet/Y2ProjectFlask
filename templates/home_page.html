@@ -1,0 +1,23 @@
+<html>
+	<head> 
+		<link rel="stylesheet" href="{{url_for('static' , filename='home_pagestyle.css')}}" >
+		<title>Home_page </title> 
+	</head>
+	<body> 
+		<div id="header_class">
+		<h1>This is my home page , I hope you will like my web </h1>
+
+		</div>
+		
+		<div id="menu" >
+			<ul>
+				<li> <a href="{{url_for('home')}}" > home </a> </li>
+				<li> <a href="{{url_for('about')}}"> about me </a> </li>
+				<li> <a href="{{url_for('contact')}}"> contact me </a> </li>
+			</ul>
+		</div>
+		<div>
+			<img src="{{ url_for('static' , filename='me.jpg')}}"/>
+		</div>
+	</body>
+</html>
